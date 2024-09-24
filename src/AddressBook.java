@@ -26,5 +26,6 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
         System.out.println("I added then I removed!!!");
+        System.out.println("I came, I saw, I praised the Lord!!");
     }
 }
