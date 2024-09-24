@@ -20,6 +20,10 @@ public class AddressBook {
         return null;
     }
 
+    public void call(BuddyInfo buddy) {
+        System.out.println("Calling "+buddy.getName()+".....");
+    }
+
     public static void main(String [] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
@@ -27,5 +31,6 @@ public class AddressBook {
         addressBook.removeBuddy(0);
         System.out.println("I added then I removed!!!");
         System.out.println("I came, I saw, I praised the Lord!!");
+        addressBook.call(buddy);
     }
 }
